@@ -10791,6 +10791,13 @@ textarea.form-control-lg {
 .btn-rounded:hover span {
   background-color: rgba(0, 0, 0, 0.6);
 }
+.btn-rounded a {
+  text-decoration: none;
+  color: #000;
+}
+.btn-rounded a:hover {
+  color: #fff;
+}
 
 .display-2 {
   margin-bottom: 1rem;
@@ -10877,6 +10884,10 @@ textarea.form-control-lg {
   color: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
+  transition: color 0.4s ease;
+}
+.menu li a:hover {
+  color: rgba(0, 0, 0, 0.6) !important;
 }
 
 .intro-section {
@@ -10928,6 +10939,7 @@ textarea.form-control-lg {
 }
 .companies__logo-box img {
   height: 100%;
+  transition: all 0.2s ease-in-out;
 }
 .companies__logo-box img:hover {
   filter: grayscale(120);
@@ -11159,11 +11171,15 @@ textarea.form-control-lg {
 .footer-sm a i {
   font-size: 1rem;
   margin-left: 1rem;
+  transition: color 0.4s ease;
 }
 @media (min-width: 576px) {
   .footer-sm a i {
     font-size: 1.6rem;
   }
+}
+.footer-sm a i:hover {
+  color: #9926f0;
 }
 
 /* Style the company info content */

@@ -11,6 +11,11 @@
             color: $white !important;
             text-transform: capitalize;
             font-weight: 600;
+            transition: color .4s ease;
+            
+            &:hover {
+                color: rgba($black, 0.6) !important;
+            }
         }
     }
 }
