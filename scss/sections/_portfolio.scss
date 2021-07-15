@@ -36,7 +36,8 @@
         .caption {
             text-align: center;
             color: $white;
-            @include absoluteCenter;
+            @include absolute-center(relative);
+            
 
             h4 {
                 text-transform: uppercase;
@@ -52,6 +53,40 @@
         .portfolio-info {
             opacity: 1;
             visibility: visible;
+        }
+    }
+}
+
+.description-page {
+    margin-top: 1rem;
+    height: 4rem;
+    display: grid; 
+    
+    a {
+        color: $white;
+        text-decoration: none;
+        &:hover {
+            color: $black;
+        }
+        
+    }
+    .icon-github {
+        font-size: 1.3rem;
+        width: 100%;
+        display: inline;
+        gap: 1rem;
+
+        &:hover {
+            color: $black;
+        }
+    }
+    .icon-website {
+        font-size: 1rem;
+        fill: $white;
+        transition: all .5s linear;
+        &:hover {
+            color: $black;
+            fill: $black;
         }
     }
 }

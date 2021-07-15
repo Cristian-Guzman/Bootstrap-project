@@ -11056,7 +11056,7 @@ textarea.form-control-lg {
 .portfolio-box .portfolio-info .caption {
   text-align: center;
   color: #fff;
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -11073,6 +11073,37 @@ textarea.form-control-lg {
 .portfolio-box:hover .portfolio-info {
   opacity: 1;
   visibility: visible;
+}
+
+.description-page {
+  margin-top: 1rem;
+  height: 4rem;
+  display: grid;
+}
+.description-page a {
+  color: #fff;
+  text-decoration: none;
+}
+.description-page a:hover {
+  color: #000;
+}
+.description-page .icon-github {
+  font-size: 1.3rem;
+  width: 100%;
+  display: inline;
+  gap: 1rem;
+}
+.description-page .icon-github:hover {
+  color: #000;
+}
+.description-page .icon-website {
+  font-size: 1rem;
+  fill: #fff;
+  transition: all 0.5s linear;
+}
+.description-page .icon-website:hover {
+  color: #000;
+  fill: #000;
 }
 
 .get-started {
